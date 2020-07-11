@@ -1,0 +1,138 @@
+/* header */
+.xfbw_header{
+    width: 100%;
+    height: 77px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* overflow: hidden; */
+}
+header{
+    width: 1151px;
+    height: 77px;
+    /* background-color: pink; */
+    margin:0 auto;
+    overflow: hidden;
+}
+header >a {
+    float: left;
+}
+header >a  img{
+    
+    width: 217px;
+    height: 45px;
+    margin-top: 15px;
+}
+header .city{
+    float: left;
+    margin-top: 26px; 
+    text-align: center;
+}
+header .city>img{
+    width: 11px;
+    height: 17px;
+    margin-left: 30px;
+    margin-right: 9px;
+}
+header .city>a{
+   padding: 9px;
+    width: 58px;
+    height: 22px;
+    background-color: #ccc;
+    line-height: 22px;
+    color: #fff;
+    margin-left: 10px;
+}
+header .nav{
+    float: left;
+    margin-left: 60px;
+    height: 77px;
+    line-height: 77px;
+}
+header .nav a{
+    float: left;
+    font-size: 12px;
+    color: black;
+    margin-right: 20px;
+}
+header .link{
+    float: right;
+    margin-top: 29px;
+}
+header .link img{
+    float: left;
+    margin-right: 17px;
+    width: 23px;
+    height: 23px;
+}
+header .link span{
+    font-size: 12px;
+    padding:6px 10px 6px 10px;
+    border: 1px solid #000;
+}
+.xfbw_footer{
+    width: 100%;
+    height: 135px;
+    background-color:#3D2D23;
+    float: left;
+}
+ footer{
+   
+    /* background-color: pink; */
+    height: 135px;
+    margin: 0 auto;
+    /* text-align: center; */
+    overflow: hidden;
+}
+footer .footer1{
+    overflow: hidden;
+}
+footer .footer1 .msg{
+    margin-top: 34px;
+    float: left;
+    
+}
+footer .footer1 .msg >a{
+    font-size: 12px;
+    padding-right: 39px;
+    padding-left: 40px;
+    border-right: 1px solid white;
+    color: white;
+}
+footer .footer1 .msg >a:last-child{
+    border: none;
+}
+footer .footer1 .tel{
+    float: left;
+    margin-top: 34px;
+    margin-left: 70px;
+}
+footer .footer1 .tel a{
+    margin-right: 45px;
+	color: #fff;
+}
+footer .footer1 .tel img{
+    float: left;
+    margin-right: 3px;
+    margin-left: 16px;
+}
+footer .footer1 .tel span{
+    color: white;
+    margin-right: 25px;
+}
+footer .footer2 {
+    float: left;
+margin-top: 34px;
+text-align: center;
+}
+footer .footer2 .copyright{
+        margin-left: 243px;
+}
+footer .footer2 span{
+    /* float: left; */
+    margin-right: 18px;
+    color: white;
+}
